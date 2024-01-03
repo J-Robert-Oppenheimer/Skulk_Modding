@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " # ",
+    "#I#",
+    " E "
+  ],
+  "key": {
+    "#": {
+      "item": "skulkhorrormod:raw_silent_steel"
+    },
+    "I":{
+      "item": "minecraft:iron_ingot"
+},
+    "E": {
+      "item": "minecraft:echo_shard"
+    }
+  },
+
+
+
+
+  "result": {
+    "item": "skulkhorrormod:silent_steel",
+    "count": 1
+  }
+}

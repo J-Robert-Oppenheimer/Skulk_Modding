@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "skulkhorrormod:item/raw_silent_steel"
+  }
+}
