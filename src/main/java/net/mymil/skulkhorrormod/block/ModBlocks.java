@@ -33,6 +33,7 @@ public class ModBlocks {
         return toReturn;
     }
 //hello
+//shut up
     private static <T extends Block> RegistryObject<Item> registerBlockItem(String name, RegistryObject<T> block) {
         return Moditems.ITEMS.register(name, ()-> new BlockItem(block.get(), new Item.Properties()));
 
