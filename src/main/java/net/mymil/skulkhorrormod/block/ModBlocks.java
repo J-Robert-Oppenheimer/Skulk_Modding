@@ -12,6 +12,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.mymil.skulkhorrormod.SkulkHorrorMod;
+import net.mymil.skulkhorrormod.block.custom.ModTeleporterBlock;
 import net.mymil.skulkhorrormod.item.Moditems;
 
 import java.util.function.Supplier;
@@ -24,6 +25,8 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.SAND)));
     public static final RegistryObject<Block> VOIDSTONE = registerBlock("voidstone",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.OBSIDIAN)));
+    public static final RegistryObject<Block> MOD_TELEPORTER = registerBlock("mod_teleporter",
+            () -> new ModTeleporterBlock(BlockBehaviour.Properties.copy(Blocks.OBSIDIAN).noCollission().noLootTable().noOcclusion()));
     public static final RegistryObject<Block> SILENT_STEEL_ORE = registerBlock("silent_steel_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE).requiresCorrectToolForDrops(), UniformInt.of(7,10)));
 

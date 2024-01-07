@@ -23,6 +23,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.ASH_BLOCK.get());
                         pOutput.accept(ModBlocks.VOIDSTONE.get());
                         pOutput.accept(ModBlocks.SILENT_STEEL_ORE.get());
+                        pOutput.accept(ModBlocks.MOD_TELEPORTER.get());
 
                     })
                     .build());
